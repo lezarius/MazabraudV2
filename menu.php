@@ -1,12 +1,12 @@
 <div id="slide-menu">
 
 <ul class="navigation">
-<li id="close"><a href="#">Close</a></li>
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li><a href="#">Link 4</a></li>
-<li><a href="#">Link 5</a></li>
+<li id="close"><a href="">Cacher</a></li>
+<li><a href="#">Portfolio</a></li>
+<li><a href="#">Services &  Prestations</a></li>
+<li><a href="#">ChangeLog</a></li>
+<li><a href="#">Résseaux Sociaux</a></li>
+<li><a href="#">Me contactez</a></li>
 </ul>
 </div>
 
