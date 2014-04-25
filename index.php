@@ -2,36 +2,50 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="BootStrap/css/bootstrap.css">
-	<link rel="stylesheet" href="BootStrap/css/sidebar.css" />
 	<link rel="stylesheet" href="BootStrap/css/menu.css" />
 	<script src="js/jquery.js"></script>
-	<script src="js/sidebar.js"></script> 
+	<script src="js/navigation.js"></script> 
+	<script src="js/typed.js" type="text/javascript"></script>
 	<title>SweetHome</title>
 </head>
 <body>
-<nav>
-		<a href="#" class="icon-menu link-menu jsc-sidebar-trigger"></a>
-	</nav>
-	<nav class="jsc-sidebar" id="side-nav">
-<ul>
-<li><a href="#" class="current">Download</a></li>
-<li><a href="http://www.jqueryscript.net">Back to article</a></li>
-<li><a href="http://www.jqueryscript.net">More jQuery Plugins</a></li>
-</ul>
-</nav>
 
-<section class="main-content">
-Your content goes here
-</section>
+<?php include 'menu.php'; ?>
+<div class="container open">
+<div id="push"> <a href="#" class="btn btn-success btn-lg">Afficher le Menu</a> </div>
+</div>
+<div class="container">
+<div class="row">
+<div align="center">
 
-<script>
-$('#side-nav').sidebar({
-trigger: '.jsc-sidebar-trigger',
-});
-</script>
+<h1>Hello World</h1>
+
+	<script>
+	$(function(){
+
+		$("#typed").typed({
+			strings: ["Bienvenue sur mon site Pro , je m'appelle Rémy Mazabraud et sur mon site vous pouvez :." , "trouvez mes traveaux dans la partie portfolio.", "trouver un moyen de me contacté.", "Trouver mes different compte sur les résseaux sociaux." , "Trouver l'amour ?" ,"Et trouver votre futur employé du mois !" ,"Bonne visite à vous :3"],
+			typeSpeed: 30,
+			backDelay: 3000,
+			loop: false,
+			// defaults to false for infinite loop
+			loopCount: false,
+			callback: function(){ foo(); }
+		});
+
+		function foo(){ console.log("Callback"); }
+
+	});
+	</script>
+	
+<span id="typed"></span>
 
 
 
+</div>
+</div>
+</div>
 </body>
 </html>

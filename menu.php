@@ -1,15 +1,23 @@
-<a href="#" class="jsc-sidebar-trigger"></a>
+<div id="slide-menu">
 
-<nav class="jsc-sidebar" id="side-nav">
-<ul>
-<li><a href="#" class="current">Download</a></li>
-<li><a href="http://www.jqueryscript.net">Back to article</a></li>
-<li><a href="http://www.jqueryscript.net">More jQuery Plugins</a></li>
+<ul class="navigation">
+<li id="close"><a href="#">Close</a></li>
+<li><a href="#">Link 1</a></li>
+<li><a href="#">Link 2</a></li>
+<li><a href="#">Link 3</a></li>
+<li><a href="#">Link 4</a></li>
+<li><a href="#">Link 5</a></li>
 </ul>
-</nav>
+</div>
 
 <script>
-$('#side-nav').sidebar({
-trigger: '.jsc-sidebar-trigger',
+$(document).ready(function () {
+$('#push, #close').click(function () {
+var $navigacia = $('body, #slide-menu'),
+val = $navigacia.css('left') === '250px' ? '0px' : '250px';
+$navigacia.animate({
+left: val
+}, 300)
+});
 });
 </script>
