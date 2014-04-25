@@ -13,20 +13,30 @@
 <body>
 
 <?php include 'menu.php'; ?>
-<div class="container open">
-<div id="push"> <a href="#" class="btn btn-success btn-lg">Afficher le Menu</a> </div>
+<div align="left" >
+<div id="push"> <a href="#" class="btn btn btn-info btn-lg">Afficher le Menu</a> </div>
 </div>
 <div class="container">
+
+<div class="row"> 
+<div align="center">
+<h1>Hello World</h1>
+<img src="img/logotype_remy_mazabraud_v2.png" alt="">
+	
+</div>
+</div>
+
+
 <div class="row">
 <div align="center">
 
-<h1>Hello World</h1>
+
 
 	<script>
 	$(function(){
 
 		$("#typed").typed({
-			strings: ["Bienvenue sur mon site Pro , je m'appelle Rémy Mazabraud et sur mon site vous pouvez :." , "trouvez mes traveaux dans la partie portfolio.", "trouver un moyen de me contacté.", "Trouver mes different compte sur les résseaux sociaux." , "Trouver l'amour ?" ,"Et trouver votre futur employé du mois !" ,"Bonne visite à vous :3"],
+			strings: ["Bienvenue sur mon site Pro , je m'appelle Rémy Mazabraud et sur mon site vous pouvez :" , "trouver mes traveaux dans la partie portfolio.", "trouver un moyen de me contacter.", "Trouver mes different compte sur les réseaux sociaux." , "Trouver l'amour ?" ,"Et trouver votre futur employé du mois !" ,"Bonne visite à vous :3"],
 			typeSpeed: 30,
 			backDelay: 3000,
 			loop: false,
@@ -44,8 +54,12 @@
 
 
 
+
+
 </div>
 </div>
+
+
 </div>
 </body>
 </html>
