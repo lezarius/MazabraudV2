@@ -19,11 +19,19 @@
 
 <div class="container">
 
+<div class="row">
+	<h1> Service & Préstation :</h1>
+<h4>Création de site web Hébergement.</h4>
+ <h4> Administration de vos serveurs.</h4>
+ <h4>Cours d'informatique en tout genre</h4>
+ <h4>Cours sur la sécurisation des données et l'anonymat.</h4>
+ <h4>Réparation d'ordinateurs. </h4>
+</div>
+<div class="jumbotron">
+	
+<h2>Prix de la prestation ou du service sur devis uniquement.</h2>
 
-
-
-
-
+</div>
 </div>
 </body>
 </html>

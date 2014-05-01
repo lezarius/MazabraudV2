@@ -1,10 +1,9 @@
 <div id="slide-menu">
 
 <ul class="navigation">
-<li id="close"><a href="">Cacher le menu</a></li>
+<li id="close"><a href="#">Cacher le menu</a></li>
 <li><a href="index.php">Accueil</a></li>
 <li><a href="portfolio.php">Portfolio</a></li>
-<li><a href="services.php">Services & Prestations</a></li>
 <li><a href="changelog.php">ChangeLog</a></li>
 <li><a href="sociaux.php">Résseaux Sociaux</a></li>
 <li><a href="contact.php">Me contacter</a></li>
